@@ -1,9 +1,9 @@
 {
   "relaySchemaVersion": 3,
   "transport": "github",
-  "publishedAt": "2026-08-22T20:10:08.677Z",
+  "publishedAt": "2026-08-22T20:10:20.393Z",
   "diagnosticVersion": 3,
-  "generatedAt": "2026-08-22T20:10:08.675Z",
+  "generatedAt": "2026-08-22T20:10:20.392Z",
   "appVersion": "1.2.18",
   "status": "Turbo16 · lote",
   "controllerActive": true,
@@ -11,38 +11,38 @@
     "score": 100,
     "level": "ok",
     "reasons": [],
-    "progressAgeMs": 10071,
-    "checkedAt": 1787429408675
+    "progressAgeMs": 10152,
+    "checkedAt": 1787429420392
   },
   "botPosition": {
-    "x": -1806.41,
+    "x": -1806.5,
     "y": 51,
-    "z": -1257.5
+    "z": -1256.49
   },
   "navigationTarget": {
     "x": -1803.5,
     "y": 51,
-    "z": -1257.5,
-    "label": "Fila 14 ponta coluna 12/15 (lado +2)",
-    "token": "1787429408421-0.3590231393040846"
+    "z": -1256.5,
+    "label": "Fila 14 ponta coluna 13/15 (lado +2)",
+    "token": "1787429420145-0.4258520312621188"
   },
   "row": {
     "index": 14,
     "name": "Fila 15",
     "stage": "revisão única do ciclo",
-    "progress": 0.3333333333333333
+    "progress": 0.3669999999999997
   },
   "cycle": {
     "number": 1,
-    "currentMs": 1369484,
+    "currentMs": 1381208,
     "lastMs": 0,
     "averageMs": 0,
     "progress": 0.985,
     "progressPct": 98.5,
-    "logicalRowsDone": 14.33,
-    "etaMs": 1390339,
-    "remainingMs": 20855,
-    "estimatedFinishAt": 1787429429276.0862,
+    "logicalRowsDone": 14.37,
+    "etaMs": 1402242,
+    "remainingMs": 21034,
+    "estimatedFinishAt": 1787429441178.6243,
     "etaConfidence": "alta",
     "etaSource": "live",
     "summary": {
@@ -50,11 +50,11 @@
       "collected": 2169,
       "notReady": 0,
       "failed": 0,
-      "missing": 200,
+      "missing": 204,
       "unloaded": 0,
       "pending": 0,
-      "unvisited": 87,
-      "coverage": 96.5
+      "unvisited": 83,
+      "coverage": 96.6
     }
   },
   "suspiciousRows": [
@@ -234,31 +234,53 @@
       "collected": 0,
       "notReady": 0,
       "failed": 0,
-      "missing": 48,
+      "missing": 52,
       "unloaded": 0,
       "pending": 0,
-      "unvisited": 12,
-      "coverage": 80
+      "unvisited": 8,
+      "coverage": 86.7
     }
   ],
   "counters": {
     "hives": 2169,
     "errors": 0,
     "recoveries": 0,
-    "stuckEvents": 5,
+    "stuckEvents": 6,
     "reconnects": 0,
-    "watchdogTrips": 5,
+    "watchdogTrips": 6,
     "lastDisconnectReason": "-"
   },
   "monitor": {
     "mode": "local-24x7",
     "snapshotEveryMs": 15000,
     "retentionHours": 24,
-    "storedSnapshots": 412,
-    "storedEvents": 47,
+    "storedSnapshots": 413,
+    "storedEvents": 49,
     "historyWindowMinutes": 30
   },
   "events": [
+    {
+      "at": 1787429420126,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (6)",
+      "data": {
+        "previous": 5,
+        "current": 6,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787429420122,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (6)",
+      "data": {
+        "previous": 5,
+        "current": 6,
+        "row": "Fila 15"
+      }
+    },
     {
       "at": 1787429408396,
       "type": "watchdog",
@@ -564,74 +586,9 @@
         "current": 8,
         "row": "Fila 15"
       }
-    },
-    {
-      "at": 1787424797921,
-      "type": "stuck",
-      "severity": "warning",
-      "message": "Bot preso/dificuldade de navegação detetada (8)",
-      "data": {
-        "previous": 7,
-        "current": 8,
-        "row": "Fila 15"
-      }
-    },
-    {
-      "at": 1787424785961,
-      "type": "watchdog",
-      "severity": "critical",
-      "message": "Watchdog 24/7 acionado (7)",
-      "data": {
-        "previous": 6,
-        "current": 7,
-        "row": "Fila 15"
-      }
     }
   ],
   "timeline": [
-    {
-      "at": 1787428212493,
-      "status": "Turbo16 · lote",
-      "state": "Turbo16 · lote",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 10%"
-        ],
-        "progressAgeMs": 354,
-        "checkedAt": 1787428212493
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 9/13",
-      "rowProgress": 0.7410256410256434,
-      "cycleProgressPct": 9.3,
-      "cycleRemainingMs": 1698698,
-      "progressAgeMs": 354,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1241.6
-      },
-      "moneyPerHour": 1653740975.7164733,
-      "hives": 246,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 246,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 10
-      }
-    },
     {
       "at": 1787428227517,
       "status": "A vender",
@@ -3982,17 +3939,50 @@
         "unloaded": 0,
         "coverage": 96.5
       }
+    },
+    {
+      "at": 1787429414607,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 3768,
+        "checkedAt": 1787429414607
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0.3669999999999997,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 20936,
+      "progressAgeMs": 3768,
+      "position": {
+        "x": -1806.5,
+        "y": 51,
+        "z": -1256.49
+      },
+      "moneyPerHour": 1696570013.696297,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 5,
+        "reconnects": 0,
+        "watchdogTrips": 5
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 204,
+        "unloaded": 0,
+        "coverage": 96.6
+      }
     }
   ],
   "logs": [
-    "[21:09:06] [FILEIRAS] Fila 14 ponta coluna 5/15 (lado +2) -> X:-1803.5 Y:51 Z:-1264.5",
-    "[21:09:07] [PONTAS] Fila 14: coluna 5/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
-    "[21:09:07] [FILEIRAS] Fila 14 ponta coluna 6/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1263.5",
-    "[21:09:07] [FILEIRAS] Fila 14 ponta coluna 6/15 (lado -1) -> X:-1806.5 Y:51 Z:-1263.5",
-    "[21:09:08] [FILEIRAS] Fila 14 ponta coluna 6/15 (lado -2) -> X:-1807.5 Y:51 Z:-1263.5",
-    "[21:09:08] [FILEIRAS] Fila 14 ponta coluna 6/15 (lado +2) -> X:-1803.5 Y:51 Z:-1263.5",
-    "[21:09:09] [PONTAS] Fila 14: coluna 6/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
-    "[21:09:09] [FILEIRAS] Fila 14 ponta coluna 7/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1262.5",
     "[21:09:09] [FILEIRAS] Fila 14 ponta coluna 7/15 (lado -1) -> X:-1806.5 Y:51 Z:-1262.5",
     "[21:09:10] [FILEIRAS] Fila 14 ponta coluna 7/15 (lado -2) -> X:-1807.5 Y:51 Z:-1262.5",
     "[21:09:10] [FILEIRAS] Fila 14 ponta coluna 7/15 (lado +2) -> X:-1803.5 Y:51 Z:-1262.5",
@@ -4034,7 +4024,15 @@
     "[21:10:00] [GITHUB DIAG] Diagnóstico publicado em pipocaas69-spec/nerdzone-bot-diagnostics/diagnostics.json.",
     "[21:10:08] [24/7] Bot preso durante navegação há 10s. A iniciar recuperação.",
     "[21:10:08] [PONTAS] Fila 14: acesso lado -2 falhou na coluna 12: Bot preso durante navegação",
-    "[21:10:08] [FILEIRAS] Fila 14 ponta coluna 12/15 (lado +2) -> X:-1803.5 Y:51 Z:-1257.5"
+    "[21:10:08] [FILEIRAS] Fila 14 ponta coluna 12/15 (lado +2) -> X:-1803.5 Y:51 Z:-1257.5",
+    "[21:10:09] [PONTAS] Fila 14: coluna 12/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
+    "[21:10:09] [FILEIRAS] Fila 14 ponta coluna 13/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1256.5",
+    "[21:10:09] [FILEIRAS] Fila 14 ponta coluna 13/15 (lado -1) -> X:-1806.5 Y:51 Z:-1256.5",
+    "[21:10:10] [FILEIRAS] Fila 14 ponta coluna 13/15 (lado -2) -> X:-1807.5 Y:51 Z:-1256.5",
+    "[21:10:16] [GITHUB DIAG] Diagnóstico publicado em pipocaas69-spec/nerdzone-bot-diagnostics/diagnostics.json.",
+    "[21:10:20] [24/7] Bot preso durante navegação há 10s. A iniciar recuperação.",
+    "[21:10:20] [PONTAS] Fila 14: acesso lado -2 falhou na coluna 13: Bot preso durante navegação",
+    "[21:10:20] [FILEIRAS] Fila 14 ponta coluna 13/15 (lado +2) -> X:-1803.5 Y:51 Z:-1256.5"
   ],
   "readOnly": true,
   "note": "Sanitized diagnostics generated by NerdZone Farm Manager v14.18"
