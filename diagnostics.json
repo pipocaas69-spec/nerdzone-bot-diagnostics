@@ -1,0 +1,3740 @@
+{
+  "relaySchemaVersion": 3,
+  "transport": "github",
+  "publishedAt": "2026-08-22T19:46:05.254Z",
+  "diagnosticVersion": 3,
+  "generatedAt": "2026-08-22T19:46:05.251Z",
+  "appVersion": "1.2.18",
+  "status": "Parado",
+  "controllerActive": false,
+  "health": {
+    "score": 45,
+    "level": "critical",
+    "reasons": [
+      "controlador parado"
+    ],
+    "progressAgeMs": 0,
+    "checkedAt": 1787427965251
+  },
+  "botPosition": null,
+  "navigationTarget": null,
+  "row": {
+    "index": 0,
+    "name": null,
+    "stage": null,
+    "progress": 0
+  },
+  "cycle": {
+    "number": 0,
+    "currentMs": 0,
+    "lastMs": 0,
+    "averageMs": 0,
+    "progress": 0,
+    "progressPct": 0,
+    "logicalRowsDone": 0,
+    "etaMs": 0,
+    "remainingMs": 0,
+    "estimatedFinishAt": 0,
+    "etaConfidence": "baixa",
+    "etaSource": "learning",
+    "summary": {
+      "total": 0,
+      "collected": 0,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 0,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 0
+    }
+  },
+  "suspiciousRows": [],
+  "counters": {
+    "hives": 0,
+    "errors": 0,
+    "recoveries": 0,
+    "stuckEvents": 0,
+    "reconnects": 0,
+    "watchdogTrips": 0,
+    "lastDisconnectReason": "-"
+  },
+  "monitor": {
+    "mode": "local-24x7",
+    "snapshotEveryMs": 15000,
+    "retentionHours": 24,
+    "storedSnapshots": 316,
+    "storedEvents": 37,
+    "historyWindowMinutes": 30
+  },
+  "events": [
+    {
+      "at": 1787427561480,
+      "type": "monitor",
+      "severity": "info",
+      "message": "Monitorização local 24/7 iniciada",
+      "data": {
+        "version": "1.2.18"
+      }
+    },
+    {
+      "at": 1787426255681,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (16)",
+      "data": {
+        "previous": 15,
+        "current": 16,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426255678,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (16)",
+      "data": {
+        "previous": 15,
+        "current": 16,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426243644,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (15)",
+      "data": {
+        "previous": 14,
+        "current": 15,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426243642,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (15)",
+      "data": {
+        "previous": 14,
+        "current": 15,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426232078,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (14)",
+      "data": {
+        "previous": 13,
+        "current": 14,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426232076,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (14)",
+      "data": {
+        "previous": 13,
+        "current": 14,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426220502,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (13)",
+      "data": {
+        "previous": 12,
+        "current": 13,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426220500,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (13)",
+      "data": {
+        "previous": 12,
+        "current": 13,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426208911,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (12)",
+      "data": {
+        "previous": 11,
+        "current": 12,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426208909,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (12)",
+      "data": {
+        "previous": 11,
+        "current": 12,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426197463,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (11)",
+      "data": {
+        "previous": 10,
+        "current": 11,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426197460,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (11)",
+      "data": {
+        "previous": 10,
+        "current": 11,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426185873,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (10)",
+      "data": {
+        "previous": 9,
+        "current": 10,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426185870,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (10)",
+      "data": {
+        "previous": 9,
+        "current": 10,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426174337,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (9)",
+      "data": {
+        "previous": 8,
+        "current": 9,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787426174334,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (9)",
+      "data": {
+        "previous": 8,
+        "current": 9,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424797922,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (8)",
+      "data": {
+        "previous": 7,
+        "current": 8,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424797921,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (8)",
+      "data": {
+        "previous": 7,
+        "current": 8,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424785961,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (7)",
+      "data": {
+        "previous": 6,
+        "current": 7,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424785959,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (7)",
+      "data": {
+        "previous": 6,
+        "current": 7,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424774649,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (6)",
+      "data": {
+        "previous": 5,
+        "current": 6,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424774647,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (6)",
+      "data": {
+        "previous": 5,
+        "current": 6,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424763149,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (5)",
+      "data": {
+        "previous": 4,
+        "current": 5,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424763148,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (5)",
+      "data": {
+        "previous": 4,
+        "current": 5,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424751604,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (4)",
+      "data": {
+        "previous": 3,
+        "current": 4,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424751602,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (4)",
+      "data": {
+        "previous": 3,
+        "current": 4,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424739999,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (3)",
+      "data": {
+        "previous": 2,
+        "current": 3,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424739997,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (3)",
+      "data": {
+        "previous": 2,
+        "current": 3,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787424728575,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (2)",
+      "data": {
+        "previous": 1,
+        "current": 2,
+        "row": "Fila 15"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "at": 1787426414749,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 7.1%"
+        ],
+        "progressAgeMs": 1387,
+        "checkedAt": 1787426414749
+      },
+      "rowIndex": 0,
+      "rowName": "Fila 1 + Fila 2",
+      "rowStage": "turbo 6/13",
+      "rowProgress": 0.5338461538461522,
+      "cycleProgressPct": 6.7,
+      "cycleRemainingMs": 1573951,
+      "progressAgeMs": 1387,
+      "position": {
+        "x": -1767.5,
+        "y": 51,
+        "z": -1249.68
+      },
+      "moneyPerHour": 1631368207.423468,
+      "hives": 4512,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 174,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 7.1
+      }
+    },
+    {
+      "at": 1787426429756,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 8.3%"
+        ],
+        "progressAgeMs": 2190,
+        "checkedAt": 1787426429756
+      },
+      "rowIndex": 0,
+      "rowName": "Fila 1 + Fila 2",
+      "rowStage": "turbo 8/13",
+      "rowProgress": 0.6192307692307716,
+      "cycleProgressPct": 7.7,
+      "cycleRemainingMs": 1522294,
+      "progressAgeMs": 2190,
+      "position": {
+        "x": -1767.5,
+        "y": 51,
+        "z": -1246.35
+      },
+      "moneyPerHour": 1631854270.1289678,
+      "hives": 4542,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 204,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 8.3
+      }
+    },
+    {
+      "at": 1787426444774,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 9.4%"
+        ],
+        "progressAgeMs": 305,
+        "checkedAt": 1787426444774
+      },
+      "rowIndex": 0,
+      "rowName": "Fila 1 + Fila 2",
+      "rowStage": "turbo 8/13",
+      "rowProgress": 0.6902564102564122,
+      "cycleProgressPct": 8.6,
+      "cycleRemainingMs": 1499216,
+      "progressAgeMs": 305,
+      "position": {
+        "x": -1767.5,
+        "y": 51,
+        "z": -1243.58
+      },
+      "moneyPerHour": 1632218675.826327,
+      "hives": 4568,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 230,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 9.4
+      }
+    },
+    {
+      "at": 1787426459795,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 10.5%"
+        ],
+        "progressAgeMs": 123,
+        "checkedAt": 1787426459795
+      },
+      "rowIndex": 0,
+      "rowName": "Fila 1 + Fila 2",
+      "rowStage": "turbo 10/13",
+      "rowProgress": 0.7941025641025649,
+      "cycleProgressPct": 9.9,
+      "cycleRemainingMs": 1438065,
+      "progressAgeMs": 123,
+      "position": {
+        "x": -1767.5,
+        "y": 51,
+        "z": -1239.53
+      },
+      "moneyPerHour": 1635631180.975664,
+      "hives": 4596,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 258,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 10.5
+      }
+    },
+    {
+      "at": 1787426474812,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 11.7%"
+        ],
+        "progressAgeMs": 1489,
+        "checkedAt": 1787426474812
+      },
+      "rowIndex": 0,
+      "rowName": "Fila 1 + Fila 2",
+      "rowStage": "turbo 11/13",
+      "rowProgress": 0.9115384615384604,
+      "cycleProgressPct": 11.4,
+      "cycleRemainingMs": 1375244,
+      "progressAgeMs": 1489,
+      "position": {
+        "x": -1767.5,
+        "y": 51,
+        "z": -1234.95
+      },
+      "moneyPerHour": 1635757642.758126,
+      "hives": 4625,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 287,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 11.7
+      }
+    },
+    {
+      "at": 1787426489838,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 12.5%"
+        ],
+        "progressAgeMs": 1821,
+        "checkedAt": 1787426489838
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "recolha inicial",
+      "rowProgress": 0,
+      "cycleProgressPct": 12.5,
+      "cycleRemainingMs": 1346167,
+      "progressAgeMs": 1821,
+      "position": {
+        "x": -1774.53,
+        "y": 51,
+        "z": -1231.5
+      },
+      "moneyPerHour": 1636230321.2177703,
+      "hives": 4645,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 307,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 12.5
+      }
+    },
+    {
+      "at": 1787426504864,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 13.6%"
+        ],
+        "progressAgeMs": 2987,
+        "checkedAt": 1787426504864
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 0/13",
+      "rowProgress": 0.03564102564102821,
+      "cycleProgressPct": 12.9,
+      "cycleRemainingMs": 1362039,
+      "progressAgeMs": 2987,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1232.89
+      },
+      "moneyPerHour": 1636644650.23755,
+      "hives": 4672,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 334,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 13.6
+      }
+    },
+    {
+      "at": 1787426519875,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 15.1%"
+        ],
+        "progressAgeMs": 555,
+        "checkedAt": 1787426519875
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 1/13",
+      "rowProgress": 0.1569230769230741,
+      "cycleProgressPct": 14.5,
+      "cycleRemainingMs": 1306678,
+      "progressAgeMs": 555,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1237.62
+      },
+      "moneyPerHour": 1640303406.121696,
+      "hives": 4709,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 371,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 15.1
+      }
+    },
+    {
+      "at": 1787426534892,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 16.1%"
+        ],
+        "progressAgeMs": 1839,
+        "checkedAt": 1787426534892
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 2/13",
+      "rowProgress": 0.23487179487179696,
+      "cycleProgressPct": 15.4,
+      "cycleRemainingMs": 1288829,
+      "progressAgeMs": 1839,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1240.66
+      },
+      "moneyPerHour": 1640839616.0746675,
+      "hives": 4733,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 395,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 16.1
+      }
+    },
+    {
+      "at": 1787426549921,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 17.2%"
+        ],
+        "progressAgeMs": 579,
+        "checkedAt": 1787426549921
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 4/13",
+      "rowProgress": 0.3202564102564105,
+      "cycleProgressPct": 16.5,
+      "cycleRemainingMs": 1267716,
+      "progressAgeMs": 579,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1243.99
+      },
+      "moneyPerHour": 1643814715.2685547,
+      "hives": 4761,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 423,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 17.2
+      }
+    },
+    {
+      "at": 1787426564931,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 18.1%"
+        ],
+        "progressAgeMs": 63,
+        "checkedAt": 1787426564931
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 5/13",
+      "rowProgress": 0.38743589743589485,
+      "cycleProgressPct": 17.3,
+      "cycleRemainingMs": 1258419,
+      "progressAgeMs": 63,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1246.61
+      },
+      "moneyPerHour": 1643789587.6262505,
+      "hives": 4782,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 444,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 18.1
+      }
+    },
+    {
+      "at": 1787426579962,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 19.3%"
+        ],
+        "progressAgeMs": 562,
+        "checkedAt": 1787426579962
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 6/13",
+      "rowProgress": 0.48384615384615104,
+      "cycleProgressPct": 18.5,
+      "cycleRemainingMs": 1230437,
+      "progressAgeMs": 562,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1250.37
+      },
+      "moneyPerHour": 1647053395.228193,
+      "hives": 4811,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 473,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 19.3
+      }
+    },
+    {
+      "at": 1787426594984,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 20.4%"
+        ],
+        "progressAgeMs": 623,
+        "checkedAt": 1787426594984
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 7/13",
+      "rowProgress": 0.5694871794871804,
+      "cycleProgressPct": 19.6,
+      "cycleRemainingMs": 1210562,
+      "progressAgeMs": 623,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1253.71
+      },
+      "moneyPerHour": 1647361222.4685185,
+      "hives": 4839,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 501,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 20.4
+      }
+    },
+    {
+      "at": 1787426610010,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 21.2%"
+        ],
+        "progressAgeMs": 430,
+        "checkedAt": 1787426610010
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 8/13",
+      "rowProgress": 0.6476923076923075,
+      "cycleProgressPct": 20.6,
+      "cycleRemainingMs": 1194381,
+      "progressAgeMs": 430,
+      "position": {
+        "x": -1774.52,
+        "y": 51,
+        "z": -1256.76
+      },
+      "moneyPerHour": 1647850012.8331168,
+      "hives": 4858,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 520,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 21.2
+      }
+    },
+    {
+      "at": 1787426625032,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 22.6%"
+        ],
+        "progressAgeMs": 6,
+        "checkedAt": 1787426625032
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 9/13",
+      "rowProgress": 0.7402564102564074,
+      "cycleProgressPct": 21.8,
+      "cycleRemainingMs": 1171458,
+      "progressAgeMs": 6,
+      "position": {
+        "x": -1774.51,
+        "y": 51,
+        "z": -1260.37
+      },
+      "moneyPerHour": 1648257655.8524067,
+      "hives": 4893,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 555,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 22.6
+      }
+    },
+    {
+      "at": 1787426640063,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 23.2%"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787426640063
+      },
+      "rowIndex": 2,
+      "rowName": "Fila 3 + Fila 4",
+      "rowStage": "turbo 10/13",
+      "rowProgress": 0.7969230769230751,
+      "cycleProgressPct": 22.5,
+      "cycleRemainingMs": 1166497,
+      "progressAgeMs": 0,
+      "position": {
+        "x": -1774.51,
+        "y": 51,
+        "z": -1262.58
+      },
+      "moneyPerHour": 1651063840.2048607,
+      "hives": 4909,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 571,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 23.2
+      }
+    },
+    {
+      "at": 1787426655091,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 24.1%"
+        ],
+        "progressAgeMs": 1308,
+        "checkedAt": 1787426655091
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 0/13",
+      "rowProgress": 0.02076923076922937,
+      "cycleProgressPct": 25.3,
+      "cycleRemainingMs": 1086179,
+      "progressAgeMs": 1308,
+      "position": {
+        "x": -1780.45,
+        "y": 51,
+        "z": -1269.69
+      },
+      "moneyPerHour": 1651395663.7832878,
+      "hives": 4930,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 592,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 24.1
+      }
+    },
+    {
+      "at": 1787426670092,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 25.1%"
+        ],
+        "progressAgeMs": 349,
+        "checkedAt": 1787426670092
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 0/13",
+      "rowProgress": 0.07794871794871702,
+      "cycleProgressPct": 26,
+      "cycleRemainingMs": 1081071,
+      "progressAgeMs": 349,
+      "position": {
+        "x": -1780.45,
+        "y": 51,
+        "z": -1267.46
+      },
+      "moneyPerHour": 1651859663.8905177,
+      "hives": 4955,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 617,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 25.1
+      }
+    },
+    {
+      "at": 1787426685126,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 26.3%"
+        ],
+        "progressAgeMs": 63,
+        "checkedAt": 1787426685126
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 2/13",
+      "rowProgress": 0.17025641025641283,
+      "cycleProgressPct": 27.1,
+      "cycleRemainingMs": 1061692,
+      "progressAgeMs": 63,
+      "position": {
+        "x": -1780.45,
+        "y": 51,
+        "z": -1263.86
+      },
+      "moneyPerHour": 1652189320.0000603,
+      "hives": 4984,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 646,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 26.3
+      }
+    },
+    {
+      "at": 1787426700145,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 27.6%"
+        ],
+        "progressAgeMs": 1307,
+        "checkedAt": 1787426700145
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 3/13",
+      "rowProgress": 0.27717948717948576,
+      "cycleProgressPct": 28.5,
+      "cycleRemainingMs": 1036869,
+      "progressAgeMs": 1307,
+      "position": {
+        "x": -1780.46,
+        "y": 51,
+        "z": -1259.69
+      },
+      "moneyPerHour": 1655197778.156378,
+      "hives": 5015,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 677,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 27.6
+      }
+    },
+    {
+      "at": 1787426715169,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 28.7%"
+        ],
+        "progressAgeMs": 2520,
+        "checkedAt": 1787426715169
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 4/13",
+      "rowProgress": 0.3553846153846128,
+      "cycleProgressPct": 29.4,
+      "cycleRemainingMs": 1023381,
+      "progressAgeMs": 2520,
+      "position": {
+        "x": -1780.46,
+        "y": 51,
+        "z": -1256.64
+      },
+      "moneyPerHour": 1655539526.0812643,
+      "hives": 5043,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 705,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 28.7
+      }
+    },
+    {
+      "at": 1787426730187,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 29.7%"
+        ],
+        "progressAgeMs": 2170,
+        "checkedAt": 1787426730187
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 5/13",
+      "rowProgress": 0.43358974358974567,
+      "cycleProgressPct": 30.4,
+      "cycleRemainingMs": 1008835,
+      "progressAgeMs": 2170,
+      "position": {
+        "x": -1780.47,
+        "y": 51,
+        "z": -1253.59
+      },
+      "moneyPerHour": 1656376359.4884722,
+      "hives": 5068,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 730,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 29.7
+      }
+    },
+    {
+      "at": 1787426745211,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 30.7%"
+        ],
+        "progressAgeMs": 518,
+        "checkedAt": 1787426745211
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 6/13",
+      "rowProgress": 0.5225641025641053,
+      "cycleProgressPct": 31.5,
+      "cycleRemainingMs": 991957,
+      "progressAgeMs": 518,
+      "position": {
+        "x": -1780.47,
+        "y": 51,
+        "z": -1250.12
+      },
+      "moneyPerHour": 1656447578.339047,
+      "hives": 5093,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 755,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 30.7
+      }
+    },
+    {
+      "at": 1787426760225,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 32%"
+        ],
+        "progressAgeMs": 653,
+        "checkedAt": 1787426760225
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 7/13",
+      "rowProgress": 0.6046153846153828,
+      "cycleProgressPct": 32.6,
+      "cycleRemainingMs": 976539,
+      "progressAgeMs": 653,
+      "position": {
+        "x": -1780.47,
+        "y": 51,
+        "z": -1246.92
+      },
+      "moneyPerHour": 1659641173.7928274,
+      "hives": 5123,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 785,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 32
+      }
+    },
+    {
+      "at": 1787426775247,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 32.9%"
+        ],
+        "progressAgeMs": 460,
+        "checkedAt": 1787426775247
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 8/13",
+      "rowProgress": 0.6861538461538459,
+      "cycleProgressPct": 33.6,
+      "cycleRemainingMs": 962280,
+      "progressAgeMs": 460,
+      "position": {
+        "x": -1780.48,
+        "y": 51,
+        "z": -1243.74
+      },
+      "moneyPerHour": 1661712118.2156572,
+      "hives": 5147,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 809,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 32.9
+      }
+    },
+    {
+      "at": 1787426790268,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 34%"
+        ],
+        "progressAgeMs": 370,
+        "checkedAt": 1787426790268
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 10/13",
+      "rowProgress": 0.7692307692307693,
+      "cycleProgressPct": 34.6,
+      "cycleRemainingMs": 947021,
+      "progressAgeMs": 370,
+      "position": {
+        "x": -1780.48,
+        "y": 51,
+        "z": -1240.5
+      },
+      "moneyPerHour": 1662033640.0563126,
+      "hives": 5172,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 834,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 34
+      }
+    },
+    {
+      "at": 1787426805290,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 35.1%"
+        ],
+        "progressAgeMs": 1556,
+        "checkedAt": 1787426805290
+      },
+      "rowIndex": 4,
+      "rowName": "Fila 5 + Fila 6",
+      "rowStage": "turbo 11/13",
+      "rowProgress": 0.8748717948717921,
+      "cycleProgressPct": 35.9,
+      "cycleRemainingMs": 924227,
+      "progressAgeMs": 1556,
+      "position": {
+        "x": -1780.49,
+        "y": 51,
+        "z": -1236.38
+      },
+      "moneyPerHour": 1665107246.8885162,
+      "hives": 5199,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 861,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 35.1
+      }
+    },
+    {
+      "at": 1787426820310,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 36%"
+        ],
+        "progressAgeMs": 384,
+        "checkedAt": 1787426820310
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "recolha inicial",
+      "rowProgress": 0,
+      "cycleProgressPct": 37.5,
+      "cycleRemainingMs": 896471,
+      "progressAgeMs": 384,
+      "position": {
+        "x": -1786.54,
+        "y": 51,
+        "z": -1231.24
+      },
+      "moneyPerHour": 1665174459.4760764,
+      "hives": 5221,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 883,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 36
+      }
+    },
+    {
+      "at": 1787426835328,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 37.3%"
+        ],
+        "progressAgeMs": 326,
+        "checkedAt": 1787426835328
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "recolha inicial",
+      "rowProgress": 0,
+      "cycleProgressPct": 37.5,
+      "cycleRemainingMs": 906901,
+      "progressAgeMs": 326,
+      "position": {
+        "x": -1786.54,
+        "y": 51,
+        "z": -1231.24
+      },
+      "moneyPerHour": 1665557043.010815,
+      "hives": 5253,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 915,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 37.3
+      }
+    },
+    {
+      "at": 1787426850346,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 38.2%"
+        ],
+        "progressAgeMs": 2788,
+        "checkedAt": 1787426850346
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 1/13",
+      "rowProgress": 0.09205128205127995,
+      "cycleProgressPct": 38.7,
+      "cycleRemainingMs": 888760,
+      "progressAgeMs": 2788,
+      "position": {
+        "x": -1786.52,
+        "y": 51,
+        "z": -1235.09
+      },
+      "moneyPerHour": 1668437924.3708134,
+      "hives": 5277,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 939,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 38.2
+      }
+    },
+    {
+      "at": 1787426865365,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 39.6%"
+        ],
+        "progressAgeMs": 69,
+        "checkedAt": 1787426865365
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 2/13",
+      "rowProgress": 0.1858974358974359,
+      "cycleProgressPct": 39.8,
+      "cycleRemainingMs": 870514,
+      "progressAgeMs": 69,
+      "position": {
+        "x": -1786.52,
+        "y": 51,
+        "z": -1238.75
+      },
+      "moneyPerHour": 1668552178.6824164,
+      "hives": 5311,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 973,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 39.6
+      }
+    },
+    {
+      "at": 1787426880394,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 40.4%"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787426880394
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 3/13",
+      "rowProgress": 0.2487179487179499,
+      "cycleProgressPct": 40.6,
+      "cycleRemainingMs": 861261,
+      "progressAgeMs": 0,
+      "position": {
+        "x": -1786.52,
+        "y": 51,
+        "z": -1241.2
+      },
+      "moneyPerHour": 1671066752.0631547,
+      "hives": 5330,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 992,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 40.4
+      }
+    },
+    {
+      "at": 1787426895422,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 41.5%"
+        ],
+        "progressAgeMs": 413,
+        "checkedAt": 1787426895422
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 4/13",
+      "rowProgress": 0.3425641025641,
+      "cycleProgressPct": 41.8,
+      "cycleRemainingMs": 842789,
+      "progressAgeMs": 413,
+      "position": {
+        "x": -1786.52,
+        "y": 51,
+        "z": -1244.86
+      },
+      "moneyPerHour": 1671429264.788402,
+      "hives": 5357,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1019,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 41.5
+      }
+    },
+    {
+      "at": 1787426910434,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 42.8%"
+        ],
+        "progressAgeMs": 4702,
+        "checkedAt": 1787426910434
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 5/13",
+      "rowProgress": 0.4407692307692322,
+      "cycleProgressPct": 43,
+      "cycleRemainingMs": 823360,
+      "progressAgeMs": 4702,
+      "position": {
+        "x": -1786.52,
+        "y": 51,
+        "z": -1248.69
+      },
+      "moneyPerHour": 1674143661.39863,
+      "hives": 5389,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1051,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 42.8
+      }
+    },
+    {
+      "at": 1787426925447,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 43.9%"
+        ],
+        "progressAgeMs": 3337,
+        "checkedAt": 1787426925447
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 6/13",
+      "rowProgress": 0.5407692307692287,
+      "cycleProgressPct": 44.3,
+      "cycleRemainingMs": 803602,
+      "progressAgeMs": 3337,
+      "position": {
+        "x": -1786.52,
+        "y": 51,
+        "z": -1252.59
+      },
+      "moneyPerHour": 1674389860.553626,
+      "hives": 5417,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1079,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 43.9
+      }
+    },
+    {
+      "at": 1787426940470,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 45.3%"
+        ],
+        "progressAgeMs": 64,
+        "checkedAt": 1787426940470
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 8/13",
+      "rowProgress": 0.6333333333333345,
+      "cycleProgressPct": 45.4,
+      "cycleRemainingMs": 785955,
+      "progressAgeMs": 64,
+      "position": {
+        "x": -1786.52,
+        "y": 51,
+        "z": -1256.2
+      },
+      "moneyPerHour": 1674699679.796702,
+      "hives": 5450,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1112,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 45.3
+      }
+    },
+    {
+      "at": 1787426955502,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 46.4%"
+        ],
+        "progressAgeMs": 2222,
+        "checkedAt": 1787426955502
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 9/13",
+      "rowProgress": 0.718974358974358,
+      "cycleProgressPct": 46.5,
+      "cycleRemainingMs": 769961,
+      "progressAgeMs": 2222,
+      "position": {
+        "x": -1786.51,
+        "y": 51,
+        "z": -1259.54
+      },
+      "moneyPerHour": 1677713490.7873044,
+      "hives": 5477,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1139,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 46.4
+      }
+    },
+    {
+      "at": 1787426970525,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 48%"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787426970525
+      },
+      "rowIndex": 6,
+      "rowName": "Fila 7 + Fila 8",
+      "rowStage": "turbo 11/13",
+      "rowProgress": 0.8687179487179515,
+      "cycleProgressPct": 48.4,
+      "cycleRemainingMs": 737918,
+      "progressAgeMs": 0,
+      "position": {
+        "x": -1786.51,
+        "y": 51,
+        "z": -1265.38
+      },
+      "moneyPerHour": 1680237993.8611634,
+      "hives": 5517,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1179,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 48
+      }
+    },
+    {
+      "at": 1787426985548,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 48.8%"
+        ],
+        "progressAgeMs": 1646,
+        "checkedAt": 1787426985548
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 0/13",
+      "rowProgress": 0.03564102564102821,
+      "cycleProgressPct": 50.4,
+      "cycleRemainingMs": 702264,
+      "progressAgeMs": 1646,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1269.11
+      },
+      "moneyPerHour": 1680561917.7655258,
+      "hives": 5536,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1198,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 48.8
+      }
+    },
+    {
+      "at": 1787427000559,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 50.2%"
+        ],
+        "progressAgeMs": 511,
+        "checkedAt": 1787427000559
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 1/13",
+      "rowProgress": 0.14256410256410115,
+      "cycleProgressPct": 51.8,
+      "cycleRemainingMs": 682065,
+      "progressAgeMs": 511,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1264.94
+      },
+      "moneyPerHour": 1683159589.4313211,
+      "hives": 5571,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1233,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 50.2
+      }
+    },
+    {
+      "at": 1787427015583,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 51.4%"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427015583
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 2/13",
+      "rowProgress": 0.23538461538461702,
+      "cycleProgressPct": 52.9,
+      "cycleRemainingMs": 665491,
+      "progressAgeMs": 0,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1261.32
+      },
+      "moneyPerHour": 1682906365.5034184,
+      "hives": 5600,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1262,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 51.4
+      }
+    },
+    {
+      "at": 1787427030611,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 52.9%"
+        ],
+        "progressAgeMs": 1034,
+        "checkedAt": 1787427030611
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 4/13",
+      "rowProgress": 0.3635897435897452,
+      "cycleProgressPct": 54.5,
+      "cycleRemainingMs": 640418,
+      "progressAgeMs": 1034,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1256.32
+      },
+      "moneyPerHour": 1685197213.037317,
+      "hives": 5636,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1298,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 52.9
+      }
+    },
+    {
+      "at": 1787427045682,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 53.7%"
+        ],
+        "progressAgeMs": 1353,
+        "checkedAt": 1787427045682
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 5/13",
+      "rowProgress": 0.42051282051282285,
+      "cycleProgressPct": 55.3,
+      "cycleRemainingMs": 632111,
+      "progressAgeMs": 1353,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1254.1
+      },
+      "moneyPerHour": 1687726330.5418215,
+      "hives": 5656,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1318,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 53.7
+      }
+    },
+    {
+      "at": 1787427060724,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 54.8%"
+        ],
+        "progressAgeMs": 426,
+        "checkedAt": 1787427060724
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 6/13",
+      "rowProgress": 0.5128205128205128,
+      "cycleProgressPct": 56.4,
+      "cycleRemainingMs": 615608,
+      "progressAgeMs": 426,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1250.5
+      },
+      "moneyPerHour": 1690270434.116354,
+      "hives": 5685,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1347,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 54.8
+      }
+    },
+    {
+      "at": 1787427075736,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 55.8%"
+        ],
+        "progressAgeMs": 3,
+        "checkedAt": 1787427075736
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 7/13",
+      "rowProgress": 0.5841025641025634,
+      "cycleProgressPct": 57.3,
+      "cycleRemainingMs": 603917,
+      "progressAgeMs": 3,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1247.72
+      },
+      "moneyPerHour": 1690356057.7280574,
+      "hives": 5708,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1370,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 55.8
+      }
+    },
+    {
+      "at": 1787427090760,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 56.8%"
+        ],
+        "progressAgeMs": 3825,
+        "checkedAt": 1787427090760
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 8/13",
+      "rowProgress": 0.6697435897435869,
+      "cycleProgressPct": 58.4,
+      "cycleRemainingMs": 588846,
+      "progressAgeMs": 3825,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1244.38
+      },
+      "moneyPerHour": 1692928570.3720934,
+      "hives": 5733,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1395,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 56.8
+      }
+    },
+    {
+      "at": 1787427105799,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 57.8%"
+        ],
+        "progressAgeMs": 412,
+        "checkedAt": 1787427105799
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 9/13",
+      "rowProgress": 0.7564102564102564,
+      "cycleProgressPct": 59.5,
+      "cycleRemainingMs": 573611,
+      "progressAgeMs": 412,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1241
+      },
+      "moneyPerHour": 1693053865.6250594,
+      "hives": 5757,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1419,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 57.8
+      }
+    },
+    {
+      "at": 1787427120818,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 59.3%"
+        ],
+        "progressAgeMs": 275,
+        "checkedAt": 1787427120818
+      },
+      "rowIndex": 8,
+      "rowName": "Fila 9 + Fila 10",
+      "rowStage": "turbo 11/13",
+      "rowProgress": 0.8615384615384593,
+      "cycleProgressPct": 60.8,
+      "cycleRemainingMs": 554314,
+      "progressAgeMs": 275,
+      "position": {
+        "x": -1792.5,
+        "y": 51,
+        "z": -1236.9
+      },
+      "moneyPerHour": 1693243187.3685389,
+      "hives": 5795,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1457,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 59.3
+      }
+    },
+    {
+      "at": 1787427135844,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 60.1%"
+        ],
+        "progressAgeMs": 864,
+        "checkedAt": 1787427135844
+      },
+      "rowIndex": 10,
+      "rowName": "Fila 11 + Fila 12",
+      "rowStage": "recolha inicial",
+      "rowProgress": 0,
+      "cycleProgressPct": 62.5,
+      "cycleRemainingMs": 528016,
+      "progressAgeMs": 864,
+      "position": {
+        "x": -1798.32,
+        "y": 51,
+        "z": -1231.37
+      },
+      "moneyPerHour": 1693407152.228356,
+      "hives": 5813,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1475,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 60.1
+      }
+    },
+    {
+      "at": 1787427150853,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 60.7%"
+        ],
+        "progressAgeMs": 3659,
+        "checkedAt": 1787427150853
+      },
+      "rowIndex": 10,
+      "rowName": "Fila 11 + Fila 12",
+      "rowStage": "turbo 0/13",
+      "rowProgress": 0.02702702702702703,
+      "cycleProgressPct": 62.8,
+      "cycleRemainingMs": 525327,
+      "progressAgeMs": 3659,
+      "position": {
+        "x": -1798.45,
+        "y": 51,
+        "z": -1232.5
+      },
+      "moneyPerHour": 1694012153.4124131,
+      "hives": 5829,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1491,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 60.7
+      }
+    },
+    {
+      "at": 1787427165865,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 62.7%"
+        ],
+        "progressAgeMs": 1214,
+        "checkedAt": 1787427165865
+      },
+      "rowIndex": 10,
+      "rowName": "Fila 11 + Fila 12",
+      "rowStage": "turbo 1/13",
+      "rowProgress": 0.10972972972972825,
+      "cycleProgressPct": 63.9,
+      "cycleRemainingMs": 510937,
+      "progressAgeMs": 1214,
+      "position": {
+        "x": -1798.45,
+        "y": 51,
+        "z": -1235.56
+      },
+      "moneyPerHour": 1694170463.4106023,
+      "hives": 5877,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1539,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 62.7
+      }
+    },
+    {
+      "at": 1787427180891,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 64%"
+        ],
+        "progressAgeMs": 435,
+        "checkedAt": 1787427180891
+      },
+      "rowIndex": 10,
+      "rowName": "Fila 11 + Fila 12",
+      "rowStage": "turbo 2/13",
+      "rowProgress": 0.22243243243243294,
+      "cycleProgressPct": 65.3,
+      "cycleRemainingMs": 490349,
+      "progressAgeMs": 435,
+      "position": {
+        "x": -1798.46,
+        "y": 51,
+        "z": -1239.73
+      },
+      "moneyPerHour": 1696415302.1190157,
+      "hives": 5909,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1571,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 64
+      }
+    },
+    {
+      "at": 1787427195912,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 88,
+        "level": "ok",
+        "reasons": [
+          "cobertura baixa 65.6%"
+        ],
+        "progressAgeMs": 2487,
+        "checkedAt": 1787427195912
+      },
+      "rowIndex": 10,
+      "rowName": "Fila 11 + Fila 12",
+      "rowStage": "turbo 4/13",
+      "rowProgress": 0.3575675675675681,
+      "cycleProgressPct": 67,
+      "cycleRemainingMs": 465136,
+      "progressAgeMs": 2487,
+      "position": {
+        "x": -1798.46,
+        "y": 51,
+        "z": -1244.73
+      },
+      "moneyPerHour": 1696747476.670911,
+      "hives": 5949,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 16,
+        "reconnects": 0,
+        "watchdogTrips": 16
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 1611,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 65.6
+      }
+    },
+    {
+      "at": 1787427566496,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427566496
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427581530,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427581530
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427596562,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427596563
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427611595,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427611595
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427626614,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427626614
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427641625,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427641625
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427656648,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427656648
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427671675,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427671675
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427686689,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427686689
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427701706,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427701706
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427716741,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427716741
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427731763,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427731763
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427746778,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427746778
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427761812,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427761812
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427776836,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427776836
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427791850,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427791850
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427806867,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427806867
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427821899,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427821899
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427836924,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427836924
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427851943,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427851943
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427866964,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427866964
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427881970,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427881970
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427896980,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427896980
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427911994,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427911994
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427927020,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427927020
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427942045,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427942045
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "at": 1787427957083,
+      "status": "Parado",
+      "state": "Parado",
+      "health": {
+        "score": 45,
+        "level": "critical",
+        "reasons": [
+          "controlador parado"
+        ],
+        "progressAgeMs": 0,
+        "checkedAt": 1787427957083
+      },
+      "rowIndex": 0,
+      "rowName": null,
+      "rowStage": null,
+      "rowProgress": 0,
+      "cycleProgressPct": 0,
+      "cycleRemainingMs": 0,
+      "progressAgeMs": 0,
+      "position": null,
+      "moneyPerHour": 0,
+      "hives": 0,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 0,
+        "collected": 0,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 0
+      }
+    }
+  ],
+  "logs": [
+    "[20:39:21] [REMOTE] Painel 24/7 ativo em http://127.0.0.1:3737. Pronto para ngrok.",
+    "[20:39:22] [NGROK] Arranque automático solicitado para a porta 3737."
+  ],
+  "readOnly": true,
+  "note": "Sanitized diagnostics generated by NerdZone Farm Manager v14.18"
+}
