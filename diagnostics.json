@@ -1,102 +1,286 @@
 {
   "relaySchemaVersion": 3,
   "transport": "github",
-  "publishedAt": "2026-08-22T20:07:22.768Z",
+  "publishedAt": "2026-08-22T20:09:22.600Z",
   "diagnosticVersion": 3,
-  "generatedAt": "2026-08-22T20:07:22.766Z",
+  "generatedAt": "2026-08-22T20:09:22.598Z",
   "appVersion": "1.2.18",
-  "status": "A vender",
+  "status": "Turbo16 · lote",
   "controllerActive": true,
   "health": {
     "score": 100,
     "level": "ok",
     "reasons": [],
-    "progressAgeMs": 472,
-    "checkedAt": 1787429242766
+    "progressAgeMs": 10134,
+    "checkedAt": 1787429362598
   },
   "botPosition": {
-    "x": -1809.5,
+    "x": -1806.41,
     "y": 51,
-    "z": -1257.48
+    "z": -1261.5
   },
-  "navigationTarget": null,
+  "navigationTarget": {
+    "x": -1803.5,
+    "y": 51,
+    "z": -1261.5,
+    "label": "Fila 14 ponta coluna 8/15 (lado +2)",
+    "token": "1787429362362-0.2809303991087313"
+  },
   "row": {
     "index": 14,
-    "name": "Fila 15 + Fila 16",
-    "stage": "turbo 6/11",
-    "progress": 0.605454545454546
+    "name": "Fila 15",
+    "stage": "revisão única do ciclo",
+    "progress": 0.2
   },
   "cycle": {
     "number": 1,
-    "currentMs": 1203216,
+    "currentMs": 1323425,
     "lastMs": 0,
     "averageMs": 0,
-    "progress": 0.9507,
-    "progressPct": 95.1,
-    "logicalRowsDone": 15.21,
-    "etaMs": 1265635,
-    "remainingMs": 62419,
-    "estimatedFinishAt": 1787429304571.8076,
+    "progress": 0.985,
+    "progressPct": 98.5,
+    "logicalRowsDone": 14.2,
+    "etaMs": 1343579,
+    "remainingMs": 20154,
+    "estimatedFinishAt": 1787429382515.6802,
     "etaConfidence": "alta",
     "etaSource": "live",
     "summary": {
       "total": 2456,
-      "collected": 2158,
+      "collected": 2169,
       "notReady": 0,
       "failed": 0,
-      "missing": 0,
+      "missing": 184,
       "unloaded": 0,
-      "pending": 11,
-      "unvisited": 287,
-      "coverage": 87.9
+      "pending": 0,
+      "unvisited": 103,
+      "coverage": 95.8
     }
   },
   "suspiciousRows": [
     {
-      "rowId": "manual-wall-1787417929317-14",
-      "rowName": "Fila 15",
-      "total": 155,
-      "collected": 119,
+      "rowId": "manual-wall-1787417929315-0",
+      "rowName": "Fila 1",
+      "total": 179,
+      "collected": 143,
       "notReady": 0,
       "failed": 0,
-      "missing": 0,
+      "missing": 36,
       "unloaded": 0,
-      "pending": 6,
-      "unvisited": 30,
-      "coverage": 76.8
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
     },
     {
-      "rowId": "manual-wall-1787417929317-15",
-      "rowName": "Fila 16",
-      "total": 170,
-      "collected": 120,
+      "rowId": "manual-wall-1787417929315-1",
+      "rowName": "Fila 2",
+      "total": 160,
+      "collected": 148,
       "notReady": 0,
       "failed": 0,
-      "missing": 0,
+      "missing": 12,
       "unloaded": 0,
-      "pending": 5,
-      "unvisited": 45,
-      "coverage": 70.6
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-2",
+      "rowName": "Fila 3",
+      "total": 160,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 12,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-3",
+      "rowName": "Fila 4",
+      "total": 160,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 12,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-4",
+      "rowName": "Fila 5",
+      "total": 160,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 12,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-5",
+      "rowName": "Fila 6",
+      "total": 160,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 12,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-6",
+      "rowName": "Fila 7",
+      "total": 160,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 12,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-7",
+      "rowName": "Fila 8",
+      "total": 160,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 12,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-8",
+      "rowName": "Fila 9",
+      "total": 160,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 12,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-9",
+      "rowName": "Fila 10",
+      "total": 156,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 8,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929316-10",
+      "rowName": "Fila 11",
+      "total": 152,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 4,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929317-11",
+      "rowName": "Fila 12",
+      "total": 152,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 4,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929317-12",
+      "rowName": "Fila 13",
+      "total": 152,
+      "collected": 148,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 4,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 0,
+      "coverage": 100
+    },
+    {
+      "rowId": "manual-wall-1787417929317-13",
+      "rowName": "Fila 14",
+      "total": 60,
+      "collected": 0,
+      "notReady": 0,
+      "failed": 0,
+      "missing": 32,
+      "unloaded": 0,
+      "pending": 0,
+      "unvisited": 28,
+      "coverage": 53.3
     }
   ],
   "counters": {
-    "hives": 2158,
+    "hives": 2169,
     "errors": 0,
     "recoveries": 0,
-    "stuckEvents": 0,
+    "stuckEvents": 1,
     "reconnects": 0,
-    "watchdogTrips": 0,
+    "watchdogTrips": 1,
     "lastDisconnectReason": "-"
   },
   "monitor": {
     "mode": "local-24x7",
     "snapshotEveryMs": 15000,
     "retentionHours": 24,
-    "storedSnapshots": 401,
-    "storedEvents": 37,
+    "storedSnapshots": 409,
+    "storedEvents": 39,
     "historyWindowMinutes": 30
   },
   "events": [
+    {
+      "at": 1787429362317,
+      "type": "watchdog",
+      "severity": "critical",
+      "message": "Watchdog 24/7 acionado (1)",
+      "data": {
+        "previous": 0,
+        "current": 1,
+        "row": "Fila 15"
+      }
+    },
+    {
+      "at": 1787429362313,
+      "type": "stuck",
+      "severity": "warning",
+      "message": "Bot preso/dificuldade de navegação detetada (1)",
+      "data": {
+        "previous": 0,
+        "current": 1,
+        "row": "Fila 15"
+      }
+    },
     {
       "at": 1787427561480,
       "type": "monitor",
@@ -402,375 +586,9 @@
         "current": 3,
         "row": "Fila 15"
       }
-    },
-    {
-      "at": 1787424739997,
-      "type": "stuck",
-      "severity": "warning",
-      "message": "Bot preso/dificuldade de navegação detetada (3)",
-      "data": {
-        "previous": 2,
-        "current": 3,
-        "row": "Fila 15"
-      }
-    },
-    {
-      "at": 1787424728575,
-      "type": "watchdog",
-      "severity": "critical",
-      "message": "Watchdog 24/7 acionado (2)",
-      "data": {
-        "previous": 1,
-        "current": 2,
-        "row": "Fila 15"
-      }
     }
   ],
   "timeline": [
-    {
-      "at": 1787428047217,
-      "status": "A vender",
-      "state": "A vender",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 0.2%"
-        ],
-        "progressAgeMs": 3177,
-        "checkedAt": 1787428047217
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 0/13",
-      "rowProgress": 0.02153846153845944,
-      "cycleProgressPct": 0.3,
-      "cycleRemainingMs": 0,
-      "progressAgeMs": 3177,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1269.66
-      },
-      "moneyPerHour": 162725540.73742014,
-      "hives": 5,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 5,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 0.2
-      }
-    },
-    {
-      "at": 1787428062250,
-      "status": "Turbo16 · lote",
-      "state": "Turbo16 · lote",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 1%"
-        ],
-        "progressAgeMs": 0,
-        "checkedAt": 1787428062250
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 1/13",
-      "rowProgress": 0.09282051282051003,
-      "cycleProgressPct": 1.2,
-      "cycleRemainingMs": 0,
-      "progressAgeMs": 0,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1266.88
-      },
-      "moneyPerHour": 633286810.8862526,
-      "hives": 24,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 24,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 1
-      }
-    },
-    {
-      "at": 1787428077272,
-      "status": "A vender",
-      "state": "A vender",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 1.4%"
-        ],
-        "progressAgeMs": 1967,
-        "checkedAt": 1787428077272
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 1/13",
-      "rowProgress": 0.14230769230769114,
-      "cycleProgressPct": 1.8,
-      "cycleRemainingMs": 0,
-      "progressAgeMs": 1967,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1264.95
-      },
-      "moneyPerHour": 935857344.0595832,
-      "hives": 35,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 35,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 1.4
-      }
-    },
-    {
-      "at": 1787428092298,
-      "status": "A vender",
-      "state": "A vender",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 2.4%"
-        ],
-        "progressAgeMs": 3548,
-        "checkedAt": 1787428092298
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 2/13",
-      "rowProgress": 0.2207692307692282,
-      "cycleProgressPct": 2.8,
-      "cycleRemainingMs": 0,
-      "progressAgeMs": 3548,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1261.89
-      },
-      "moneyPerHour": 1145353599.7087467,
-      "hives": 60,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 60,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 2.4
-      }
-    },
-    {
-      "at": 1787428107328,
-      "status": "A vender",
-      "state": "A vender",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 3.2%"
-        ],
-        "progressAgeMs": 1692,
-        "checkedAt": 1787428107328
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 3/13",
-      "rowProgress": 0.27051282051281933,
-      "cycleProgressPct": 3.4,
-      "cycleRemainingMs": 1941995,
-      "progressAgeMs": 1692,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1259.95
-      },
-      "moneyPerHour": 1299579688.1443977,
-      "hives": 78,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 78,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 3.2
-      }
-    },
-    {
-      "at": 1787428122356,
-      "status": "Turbo16 · lote",
-      "state": "Turbo16 · lote",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 4.3%"
-        ],
-        "progressAgeMs": 10,
-        "checkedAt": 1787428122356
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 4/13",
-      "rowProgress": 0.34179487179486995,
-      "cycleProgressPct": 4.3,
-      "cycleRemainingMs": 1863159,
-      "progressAgeMs": 10,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1257.17
-      },
-      "moneyPerHour": 1349097581.9377017,
-      "hives": 106,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 106,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 4.3
-      }
-    },
-    {
-      "at": 1787428137378,
-      "status": "A vender",
-      "state": "A vender",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 5.3%"
-        ],
-        "progressAgeMs": 71,
-        "checkedAt": 1787428137378
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 5/13",
-      "rowProgress": 0.4146153846153865,
-      "cycleProgressPct": 5.2,
-      "cycleRemainingMs": 1800319,
-      "progressAgeMs": 71,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1254.33
-      },
-      "moneyPerHour": 1437227758.4260716,
-      "hives": 129,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 129,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 5.3
-      }
-    },
-    {
-      "at": 1787428152398,
-      "status": "A vender",
-      "state": "A vender",
-      "health": {
-        "score": 88,
-        "level": "ok",
-        "reasons": [
-          "cobertura baixa 6.1%"
-        ],
-        "progressAgeMs": 2514,
-        "checkedAt": 1787428152398
-      },
-      "rowIndex": 0,
-      "rowName": "Fila 1 + Fila 2",
-      "rowStage": "turbo 6/13",
-      "rowProgress": 0.4705128205128182,
-      "cycleProgressPct": 5.9,
-      "cycleRemainingMs": 1812485,
-      "progressAgeMs": 2514,
-      "position": {
-        "x": -1767.5,
-        "y": 51,
-        "z": -1252.15
-      },
-      "moneyPerHour": 1521295499.7833717,
-      "hives": 149,
-      "counters": {
-        "errors": 0,
-        "recoveries": 0,
-        "stuckEvents": 0,
-        "reconnects": 0,
-        "watchdogTrips": 0
-      },
-      "harvest": {
-        "total": 2456,
-        "collected": 149,
-        "failed": 0,
-        "missing": 0,
-        "unloaded": 0,
-        "coverage": 6.1
-      }
-    },
     {
       "at": 1787428167426,
       "status": "A vender",
@@ -3842,59 +3660,387 @@
         "unloaded": 0,
         "coverage": 87.3
       }
+    },
+    {
+      "at": 1787429249361,
+      "status": "A vender",
+      "state": "A vender",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 2864,
+        "checkedAt": 1787429249362
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15 + Fila 16",
+      "rowStage": "turbo 6/11",
+      "rowProgress": 0.6390909090909066,
+      "cycleProgressPct": 95.5,
+      "cycleRemainingMs": 57180,
+      "progressAgeMs": 2864,
+      "position": {
+        "x": -1809.5,
+        "y": 51,
+        "z": -1258.59
+      },
+      "moneyPerHour": 1918773143.6522315,
+      "hives": 2166,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2166,
+        "failed": 0,
+        "missing": 0,
+        "unloaded": 0,
+        "coverage": 88.2
+      }
+    },
+    {
+      "at": 1787429264388,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 154,
+        "checkedAt": 1787429264388
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0.008666666666666363,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 18661,
+      "progressAgeMs": 154,
+      "position": {
+        "x": -1768.11,
+        "y": 51,
+        "z": -1267.24
+      },
+      "moneyPerHour": 1895932025.555698,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 20,
+        "unloaded": 0,
+        "coverage": 89.1
+      }
+    },
+    {
+      "at": 1787429279417,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 7,
+        "checkedAt": 1787429279417
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 18886,
+      "progressAgeMs": 7,
+      "position": {
+        "x": -1774.5,
+        "y": 51,
+        "z": -1268.5
+      },
+      "moneyPerHour": 1874196447.7313933,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 56,
+        "unloaded": 0,
+        "coverage": 90.6
+      }
+    },
+    {
+      "at": 1787429294444,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 8,
+        "checkedAt": 1787429294444
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 19116,
+      "progressAgeMs": 8,
+      "position": {
+        "x": -1776.63,
+        "y": 51,
+        "z": -1270.5
+      },
+      "moneyPerHour": 1852419610.169648,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 84,
+        "unloaded": 0,
+        "coverage": 91.7
+      }
+    },
+    {
+      "at": 1787429309461,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 7,
+        "checkedAt": 1787429309461
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 19342,
+      "progressAgeMs": 7,
+      "position": {
+        "x": -1786.5,
+        "y": 51,
+        "z": -1268.49
+      },
+      "moneyPerHour": 1831535374.3801866,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 112,
+        "unloaded": 0,
+        "coverage": 92.9
+      }
+    },
+    {
+      "at": 1787429324465,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 6,
+        "checkedAt": 1787429324465
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 19572,
+      "progressAgeMs": 6,
+      "position": {
+        "x": -1791.5,
+        "y": 51,
+        "z": -1268.5
+      },
+      "moneyPerHour": 1810753537.9015,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 136,
+        "unloaded": 0,
+        "coverage": 93.9
+      }
+    },
+    {
+      "at": 1787429339491,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 6,
+        "checkedAt": 1787429339491
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0.03333333333333333,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 19803,
+      "progressAgeMs": 6,
+      "position": {
+        "x": -1804.5,
+        "y": 51,
+        "z": -1266.5
+      },
+      "moneyPerHour": 1790358231.4808764,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 156,
+        "unloaded": 0,
+        "coverage": 94.7
+      }
+    },
+    {
+      "at": 1787429354519,
+      "status": "Turbo16 · lote",
+      "state": "Turbo16 · lote",
+      "health": {
+        "score": 100,
+        "level": "ok",
+        "reasons": [],
+        "progressAgeMs": 1899,
+        "checkedAt": 1787429354519
+      },
+      "rowIndex": 14,
+      "rowName": "Fila 15",
+      "rowStage": "revisão única do ciclo",
+      "rowProgress": 0.2,
+      "cycleProgressPct": 98.5,
+      "cycleRemainingMs": 20028,
+      "progressAgeMs": 1899,
+      "position": {
+        "x": -1806.41,
+        "y": 51,
+        "z": -1261.5
+      },
+      "moneyPerHour": 1770897186.8691173,
+      "hives": 2169,
+      "counters": {
+        "errors": 0,
+        "recoveries": 0,
+        "stuckEvents": 0,
+        "reconnects": 0,
+        "watchdogTrips": 0
+      },
+      "harvest": {
+        "total": 2456,
+        "collected": 2169,
+        "failed": 0,
+        "missing": 184,
+        "unloaded": 0,
+        "coverage": 95.8
+      }
     }
   ],
   "logs": [
-    "[21:06:29] [VENDA] Inventário quase cheio -> /vender",
-    "[21:06:29] [STATS] Venda: 560 itens | +$2.42M | Total: 638150000",
-    "[21:06:32] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:06:33] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:06:33] [VENDA] Inventário quase cheio -> /vender",
-    "[21:06:33] [STATS] Venda: 555 itens | +$2.4M | Total: 640550000",
-    "[21:06:36] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:06:38] [VENDA BG] /vender lançado com 3 slots livres; delay de ~2.5s corre em paralelo.",
-    "[21:06:38] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:06:38] [STATS] Venda: 560 itens | +$2.42M | Total: 642970000",
-    "[21:06:38] [VENDA BG] /vender aplicado em 485 ms enquanto o bot continuava a trabalhar.",
-    "[21:06:39] [INVENTÁRIO] Venda concluída. 22 slots livres.",
-    "[21:06:40] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:06:41] [VENDA] Inventário quase cheio -> /vender",
-    "[21:06:41] [STATS] Venda: 560 itens | +$2.42M | Total: 645390000",
-    "[21:06:44] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:06:45] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:06:45] [VENDA] Inventário quase cheio -> /vender",
-    "[21:06:46] [STATS] Venda: 560 itens | +$2.42M | Total: 647810000",
-    "[21:06:48] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:06:49] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:06:49] [VENDA] Inventário quase cheio -> /vender",
-    "[21:06:49] [STATS] Venda: 560 itens | +$2.42M | Total: 650230000",
-    "[21:06:53] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:06:54] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:06:54] [VENDA] Inventário quase cheio -> /vender",
-    "[21:06:55] [STATS] Venda: 560 itens | +$2.42M | Total: 652650000",
-    "[21:06:58] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:06:59] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:06:59] [VENDA] Inventário quase cheio -> /vender",
-    "[21:07:00] [STATS] Venda: 560 itens | +$2.42M | Total: 655070000",
-    "[21:07:03] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:07:04] [VENDA BG] /vender lançado com 3 slots livres; delay de ~2.5s corre em paralelo.",
-    "[21:07:05] [STATS] Venda: 560 itens | +$2.42M | Total: 657490000",
-    "[21:07:05] [VENDA BG] /vender aplicado em 493 ms enquanto o bot continuava a trabalhar.",
-    "[21:07:05] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:07:07] [VENDA] Inventário quase cheio -> /vender",
-    "[21:07:08] [STATS] Venda: 560 itens | +$2.42M | Total: 659910000",
-    "[21:07:11] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:07:12] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:07:12] [VENDA] Inventário quase cheio -> /vender",
-    "[21:07:13] [STATS] Venda: 560 itens | +$2.42M | Total: 662330000",
-    "[21:07:16] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:07:17] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:07:17] [VENDA] Inventário quase cheio -> /vender",
-    "[21:07:17] [STATS] Venda: 560 itens | +$2.42M | Total: 664750000",
-    "[21:07:20] [INVENTÁRIO] Venda concluída. 35 slots livres.",
-    "[21:07:21] [INVENTÁRIO] Sem espaço suficiente (0 slots). Pausa automática até vender.",
-    "[21:07:21] [VENDA] Inventário quase cheio -> /vender",
-    "[21:07:22] [STATS] Venda: 560 itens | +$2.42M | Total: 667170000"
+    "[21:08:53] [FILEIRAS] Fila 13 ponta coluna 1/1 (perpendicular à coluna) -> X:-1801.5 Y:51 Z:-1268.5",
+    "[21:08:54] [FILEIRAS] Fila 13 ponta coluna 1/1 (lado -1) -> X:-1803.5 Y:51 Z:-1268.5",
+    "[21:08:54] [FILEIRAS] Fila 13 ponta coluna 1/1 (lado -2) -> X:-1804.5 Y:51 Z:-1268.5",
+    "[21:08:55] [FILEIRAS] Fila 13 ponta coluna 1/1 (lado +2) -> X:-1800.5 Y:51 Z:-1268.5",
+    "[21:08:55] [FILEIRAS] Fila 13 ponta coluna 1/1 (interior da ponta) -> X:-1801.5 Y:51 Z:-1266.9",
+    "[21:08:56] [PONTAS] Fila 13: coluna 1/1 ainda tem 4 alvo(s) pronto(s) após tentar 5 posição(ões).",
+    "[21:08:56] [TURBO16 REVISÃO FÍSICA] Fila 14: 60 alvo(s) · 0 fora do comprimento lógico; aproximação agora pela coordenada física real.",
+    "[21:08:56] [FILEIRAS] Fila 14 ponta coluna 1/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1267.5",
+    "[21:08:57] [FILEIRAS] Fila 14 ponta coluna 1/15 (lado -1) -> X:-1806.5 Y:51 Z:-1267.5",
+    "[21:08:57] [FILEIRAS] Fila 14 ponta coluna 1/15 (lado -2) -> X:-1807.5 Y:51 Z:-1267.5",
+    "[21:08:58] [FILEIRAS] Fila 14 ponta coluna 1/15 (lado +2) -> X:-1803.5 Y:51 Z:-1267.5",
+    "[21:08:59] [FILEIRAS] Fila 14 ponta coluna 1/15 (interior da ponta) -> X:-1804.5 Y:51 Z:-1266.9",
+    "[21:08:59] [PONTAS] Fila 14: coluna 1/15 ainda tem 4 alvo(s) pronto(s) após tentar 5 posição(ões).",
+    "[21:08:59] [FILEIRAS] Fila 14 ponta coluna 2/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1266.5",
+    "[21:08:59] [FILEIRAS] Fila 14 ponta coluna 2/15 (lado -1) -> X:-1806.5 Y:51 Z:-1266.5",
+    "[21:08:59] [FILEIRAS] Fila 14 ponta coluna 2/15 (lado -2) -> X:-1807.5 Y:51 Z:-1266.5",
+    "[21:09:00] [FILEIRAS] Fila 14 ponta coluna 2/15 (lado +2) -> X:-1803.5 Y:51 Z:-1266.5",
+    "[21:09:01] [PONTAS] Fila 14: coluna 2/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
+    "[21:09:01] [FILEIRAS] Fila 14 ponta coluna 3/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1268.5",
+    "[21:09:01] [FILEIRAS] Fila 14 ponta coluna 3/15 (lado -1) -> X:-1806.5 Y:51 Z:-1268.5",
+    "[21:09:02] [FILEIRAS] Fila 14 ponta coluna 3/15 (lado -2) -> X:-1807.5 Y:51 Z:-1268.5",
+    "[21:09:02] [FILEIRAS] Fila 14 ponta coluna 3/15 (lado +2) -> X:-1803.5 Y:51 Z:-1268.5",
+    "[21:09:03] [FILEIRAS] Fila 14 ponta coluna 3/15 (interior da ponta) -> X:-1804.5 Y:51 Z:-1266.9",
+    "[21:09:03] [PONTAS] Fila 14: coluna 3/15 ainda tem 4 alvo(s) pronto(s) após tentar 5 posição(ões).",
+    "[21:09:03] [FILEIRAS] Fila 14 ponta coluna 4/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1265.5",
+    "[21:09:04] [FILEIRAS] Fila 14 ponta coluna 4/15 (lado -1) -> X:-1806.5 Y:51 Z:-1265.5",
+    "[21:09:04] [FILEIRAS] Fila 14 ponta coluna 4/15 (lado -2) -> X:-1807.5 Y:51 Z:-1265.5",
+    "[21:09:04] [FILEIRAS] Fila 14 ponta coluna 4/15 (lado +2) -> X:-1803.5 Y:51 Z:-1265.5",
+    "[21:09:05] [PONTAS] Fila 14: coluna 4/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
+    "[21:09:05] [FILEIRAS] Fila 14 ponta coluna 5/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1264.5",
+    "[21:09:06] [FILEIRAS] Fila 14 ponta coluna 5/15 (lado -1) -> X:-1806.5 Y:51 Z:-1264.5",
+    "[21:09:06] [FILEIRAS] Fila 14 ponta coluna 5/15 (lado -2) -> X:-1807.5 Y:51 Z:-1264.5",
+    "[21:09:06] [FILEIRAS] Fila 14 ponta coluna 5/15 (lado +2) -> X:-1803.5 Y:51 Z:-1264.5",
+    "[21:09:07] [PONTAS] Fila 14: coluna 5/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
+    "[21:09:07] [FILEIRAS] Fila 14 ponta coluna 6/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1263.5",
+    "[21:09:07] [FILEIRAS] Fila 14 ponta coluna 6/15 (lado -1) -> X:-1806.5 Y:51 Z:-1263.5",
+    "[21:09:08] [FILEIRAS] Fila 14 ponta coluna 6/15 (lado -2) -> X:-1807.5 Y:51 Z:-1263.5",
+    "[21:09:08] [FILEIRAS] Fila 14 ponta coluna 6/15 (lado +2) -> X:-1803.5 Y:51 Z:-1263.5",
+    "[21:09:09] [PONTAS] Fila 14: coluna 6/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
+    "[21:09:09] [FILEIRAS] Fila 14 ponta coluna 7/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1262.5",
+    "[21:09:09] [FILEIRAS] Fila 14 ponta coluna 7/15 (lado -1) -> X:-1806.5 Y:51 Z:-1262.5",
+    "[21:09:10] [FILEIRAS] Fila 14 ponta coluna 7/15 (lado -2) -> X:-1807.5 Y:51 Z:-1262.5",
+    "[21:09:10] [FILEIRAS] Fila 14 ponta coluna 7/15 (lado +2) -> X:-1803.5 Y:51 Z:-1262.5",
+    "[21:09:11] [PONTAS] Fila 14: coluna 7/15 ainda tem 4 alvo(s) pronto(s) após tentar 4 posição(ões).",
+    "[21:09:11] [FILEIRAS] Fila 14 ponta coluna 8/15 (perpendicular à coluna) -> X:-1804.5 Y:51 Z:-1261.5",
+    "[21:09:11] [FILEIRAS] Fila 14 ponta coluna 8/15 (lado -1) -> X:-1806.5 Y:51 Z:-1261.5",
+    "[21:09:12] [FILEIRAS] Fila 14 ponta coluna 8/15 (lado -2) -> X:-1807.5 Y:51 Z:-1261.5",
+    "[21:09:22] [24/7] Bot preso durante navegação há 10s. A iniciar recuperação.",
+    "[21:09:22] [PONTAS] Fila 14: acesso lado -2 falhou na coluna 8: Bot preso durante navegação",
+    "[21:09:22] [FILEIRAS] Fila 14 ponta coluna 8/15 (lado +2) -> X:-1803.5 Y:51 Z:-1261.5"
   ],
   "readOnly": true,
   "note": "Sanitized diagnostics generated by NerdZone Farm Manager v14.18"
